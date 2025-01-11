@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Vitaliano De Angelis - sito ufficiale</title>
+        
+    <script src="src/jquery-1.4.2.js"></script>
+    <script src="src/galleria.js"></script>
+
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />	
+	
+    <style>
+    #galleria{height:360px;}
+    </style>
+    
+</head>
+
+<body>
+
+<div id="wrapper">
+	<h1><a href="index.html"><span class="hone"><em>V</em>italiano</span>
+	    <span class="htwo"><em>D</em>e Angelis</span></a>
+	    <span class="hthree"><a href="opera.html">L'OPERA</a></span></h1>
+	<div id="head-1-empty">
+        <div id="section"><img src="images/monumenti.jpg" alt="Pic 1" /></div>
+    </div>
+	<div id="head-2-empty">
+    </div>
+	<div id="nav">
+		<ul>
+		  <li><a href="sculture.html">SCULTURE</a></li>
+		  <li><a href="disegni.html">DISEGNI</a></li>
+		  <li><a href="grafica.html">GRAFICA</a></li>
+		  <li><a href="scritti.html">SCRITTI</a></li>
+		  <li class="last"><a href="monumenti.html">MONUMENTI</a></li>
+		</ul>
+	</div>
+	<div id="body-pages">
+		<h2><em>M</em>onumenti</h2>
+		<div id="gallery-large">
+        <!--
+			<div class="gal" id="gzero"><a href="monumenti_gallery.html"><img src="images/pic_1.jpg" width="221" height="163" alt="Pic 1" /></a></div>
+			<div class="gal" id="gone"><a href="sculture_gallery.html"><img src="images/pic_2.jpg" width="57" height="41" alt="Pic 2" /></a></div>
+			<div class="gal" id="gtwo"><a href="sculture_gallery.html"><img src="images/pic_3.jpg" width="57" height="41" alt="Pic 3" /></a></div>
+			<div class="gal" id="gthree"><a href="sculture_gallery.html"><img src="images/pic_4.jpg" width="57" height="41" alt="Pic 4" /></a></div>
+			<div class="clear"></div>
+            -->
+            <div id="galleria">
+            <img title="Lampada votiva" alt="argento. Basilica della Santissima Annunziata - Firenze" src="images/gallery/monumenti/Ss_Annunziata.jpg">
+            <img title="Monumento al Villano" alt="bronzo.(In collaborazione con G. Guiggi)<br/>Piazza Rosselli - Livorno" src="images/gallery/monumenti/villano.jpg">
+            <img title="Busto di E. Bartelloni" alt="Piazza S. Marco - Livorno" src="images/gallery/monumenti/bartelloni_sanmarco.jpg">
+            <img title="Lanciatrice di giavellotto" alt="Parco nazionale del Panathlon - Genova" src="images/gallery/monumenti/lanciatrice_giavellotto.jpg">
+            <img title="Busto del patriota Lemmi" alt="Parco del museo civico - Livorno" src="images/gallery/monumenti/patriota_lemmi.jpg">
+            <img title="Busto di A. Modigliani" alt="Parco del museo civico - Livorno" src="images/gallery/monumenti/modigliani.jpg">
+            <img title="Monumento ai caduti civili di guerra" alt="Piazza Unit&agrave; d'Italia - Livorno" src="images/gallery/monumenti/caduti.jpg">
+            <img title="Bassorilievo" alt="Banca Popolare dell'Etruria - Livorno" src="images/gallery/monumenti/bassorilievo_bpe.jpg">
+            <img title="L'Arcangelo Gabriele - acquasantiera" alt="Chiesa del Soccorso - Livorno" src="images/gallery/monumenti/arc_gabriele_soccorso.jpg">
+            <img title="Statua di San Domenico" alt="Chiesa del Soccorso - Livorno" src="images/gallery/monumenti/san_domenico.jpg">
+            <img title="Bassorilievo I" alt="Chiesa del Soccorso - Livorno" src="images/gallery/monumenti/soccorso_1.jpg">
+            <img title="Bassorilievo II" alt="Chiesa del Soccorso - Livorno" src="images/gallery/monumenti/soccorso_2.jpg">
+            <img title="Statua della Vergine" alt="Chiesa di Collinaia - Livorno" src="images/gallery/monumenti/Vergine_collinaia.jpg">
+            <img title="Bassorilievi fonte battesimale" alt="Chiesa di Shangai - Livorno" src="images/gallery/monumenti/fonte_Battesimale_shangai.jpg">
+            </div>
+		</div>
+	</div>
+    <!--
+    <div id="body-right">
+		<h2><em>S</em>culture</h2>
+		<p>Questo sito rende testimonianza della produzione artistica di Vitaliano De Angelis, maestro del '900.</p>
+        <p>Sfogliate adagio queste pagine, gustatevi i nudi femminili, cos&igrave; signorilmente erotici, cos&igrave; elegantemente in posa: una posa gentile che evita le asprezze del profilo giocando con le ombrosit&agrave; vellutate dei torsi e delle spalle.</p>
+        <p>De Angelis esprime nella sua opera una religiosa attenzione alla bellezza della vita come dono divino, giocando con evidente piacere sulla forma come luogo della gioia e della dolcezza.</p>
+  </div>
+	-->
+	<div class="clear spacer"></div>
+	<div id="footer">
+		&copy; 2019 Paola De Angelis Bertocchini - <a href="crediti.html">crediti</a>
+	</div>
+</div>
+
+<script>
+    
+    // Load the classic theme
+    Galleria.loadTheme('src/themes/classic/galleria.classic.js');
+
+    // Initialize Galleria
+    $('#galleria').galleria({
+        //image_crop: true, // crop all images to fit
+        //thumb_crop: true, // crop all thumbnails to fit
+        transition: 'fade', // crossfade photos
+        transition_speed: 700, // slow down the crossfade
+        extend: function() {
+            this.bind(Galleria.IMAGE, function(e) {
+                // bind a click event to the active image
+                $(e.imageTarget).css('cursor','pointer').click(this.proxy(function() {
+                    // open the image in a lightbox
+                    this.openLightbox();
+                }));
+            });
+        }
+    });
+    
+</script>
+
+</body>
+</html>
